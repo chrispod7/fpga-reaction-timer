@@ -92,5 +92,4 @@ All reaction timer core tests passed.
 - Designed a real-time reaction timer on a Xilinx Spartan-7 FPGA, driven by a four-state finite state machine (`IDLE`, `WAIT`, `GO`, `RESULT`) with LFSR-based random delays and false-start detection
 - Implemented supporting modules for millisecond clock timing, button debouncing, reaction counting, and multiplexed seven-segment display output
 - Built a self-checking simulation testbench covering normal reaction timing, state transitions, result capture, and false-start behavior
-
-After you run synthesis and implementation successfully on your own board in Vivado, you can accurately replace the final bullet with: "Synthesized, simulated, and verified the complete timing-critical design in Vivado."
+- Synthesized, simulated, and verified the complete timing-critical design in Vivado.
